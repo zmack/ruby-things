@@ -62,7 +62,7 @@ Intermediate
 * classes
   * flat scope
 
-* method_missing
+* `method_missing`
 
 * tests
   * what's an assert

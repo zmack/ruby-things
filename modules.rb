@@ -15,3 +15,11 @@ class Baz
 end
 
 Baz.bar # => :bar
+
+module Bam
+  include Bar
+end
+
+class Foot
+  include Bam
+end
