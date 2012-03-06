@@ -62,6 +62,8 @@ Intermediate
 * classes
   * flat scope
 
+* method_missing
+
 * tests
   * what's an assert
   * standard test unit things
