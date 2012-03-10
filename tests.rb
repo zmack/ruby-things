@@ -1,6 +1,6 @@
-require 'minitest/autorun'
+require 'test/unit'
 
-class AwesomeTest < MiniTest::Unit::TestCase
+class AwesomeTest < Test::Unit::TestCase
   def test_this_works
     assert_equal 1, 1
   end
@@ -15,3 +15,5 @@ class AwesomeTest < MiniTest::Unit::TestCase
     end
   end
 end
+
+# => koans/about_asserts.rb

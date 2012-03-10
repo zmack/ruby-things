@@ -22,3 +22,5 @@ a.method(:feet).source_location
 # REE
 a.method(:feet).__file__
 a.method(:feet).__line__
+
+# => blocks.rb

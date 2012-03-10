@@ -20,4 +20,6 @@ def foo(bar = 10)
   bar * 2
 end
 
-foo # => 20
+p foo # => 20
+
+# => classes.rb

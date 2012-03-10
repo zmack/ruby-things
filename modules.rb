@@ -10,16 +10,4 @@ end
 
 Foo.new.bar # => :bar
 
-class Baz
-  extend Bar
-end
-
-Baz.bar # => :bar
-
-module Bam
-  include Bar
-end
-
-class Foot
-  include Bam
-end
+# => modules-2.rb
