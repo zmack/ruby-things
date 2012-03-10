@@ -1,4 +1,5 @@
 def new_class
+  a = 1
   Class.new do
     define_method :bar do
       puts "Hello"

@@ -1,9 +1,9 @@
 # base types
-nil
+p nil.class.id
 
-true
+p true.class.id
 
-false.class
+p false.class.id
 
-puts "Hello world"
+# puts "Hello world"
 # => intro-1.rb

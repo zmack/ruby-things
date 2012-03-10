@@ -2,10 +2,6 @@ def foo
   yield
 end
 
-foo do
-  "omg wtf"
-end # => "omg wtf"
-
 foo { "lolz" } # => "lolz"
 
 def double_the_things
@@ -13,6 +9,10 @@ def double_the_things
 end
 
 double_the_things { "foo " } # => "foo foo "
+
+double_the_things do
+  "foo"
+end
 
 def optional_block
   if block_given?
@@ -24,6 +24,6 @@ end
 
 optional_block # => "I don't like you"
 
-optional_block { "Awesome" } # => "Awesome"
+optional_block { varza; capra; piatra; } # => "Awesome"
 
 # => blocks-2.rb

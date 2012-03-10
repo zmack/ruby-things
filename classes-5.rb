@@ -13,6 +13,8 @@ end
 
 class Animal
   attr_accessor :heads
+  # heads=(value)
+  # heads
 
   def initialize(heads)
     self.heads = heads

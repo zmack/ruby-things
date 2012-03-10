@@ -28,4 +28,10 @@ private
   end
 end
 
+a = Duck.new(a)
+a = Duck.allocate
+p a.wings
+a.send(:initialize, 5)
+p a.wings
+
 # => classes-9.rb
