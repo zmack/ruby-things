@@ -26,7 +26,7 @@ class Animal
 end
 
 Animal.moo
-Animal.new(2).heads # => 2
+p Animal.new(2).heads # => 2
 
 
 # => classes-4.rb

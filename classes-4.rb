@@ -1,6 +1,6 @@
 class Animal
   def self.new_from_rat(rat)
-    self.new(rat.heads)
+    self.new(rat)
   end
   
   def initialize(heads)
