@@ -42,12 +42,19 @@ a = 4
     #p :bla
 #end
 
+#case a
+#when Fixnum
+  #puts "Fixnum"
+#when String
+  #puts "String"
+#when Symbol
+  #puts "Symbol"
+#end
+
 # puts "foo" unless (a == 3)
 a = [1,2,3]
 
 # a = "moloz pe varza"
-
-p a.public_methods.grep /each_/
 
 a.each do |x|
 end

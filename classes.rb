@@ -1,12 +1,12 @@
 class Vaca
 
-  def initialize()
-    @numar_picioare = nume
+  def initialize
+    @numar_picioare = 10
   end
 
   def bar
     @bar = 2
-    uger
+    self.moo
   end
 
 protected
@@ -23,6 +23,12 @@ end
 a = Vaca.new
 
 p a.bar
+
+p a.public_methods
+p a.private_methods
+p a.protected_methods
+
+a.moo
 
 
 # => classes-2.rb
