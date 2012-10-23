@@ -1,5 +1,4 @@
 "a string".capitalize # => "A string"
-p "foo".public_methods.grep(/^to_/)
 
 1.to_s # => "1"
 
@@ -7,4 +6,4 @@ p "foo".public_methods.grep(/^to_/)
 
 :foo.to_s # => "foo"
 
-# => methods.rb
+# => intro-4.rb
