@@ -28,7 +28,5 @@ p a.public_methods
 p a.private_methods
 p a.protected_methods
 
-a.moo
-
 
 # => classes-2.rb

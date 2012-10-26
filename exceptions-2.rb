@@ -5,6 +5,6 @@ class Bar < Exception
 end
 
 
-# raise Bar.new('Fuck this shit')
+raise Bar.new('What is love')
 #
 # => catch.rb

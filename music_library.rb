@@ -1,0 +1,3 @@
+class MusicLibrary
+
+end

@@ -31,8 +31,8 @@ a.feet # => 4
 a.method(:feet).source_location # => [file, line]
 
 ## REE
-a.method(:feet).__file__
-a.method(:feet).__line__
+#a.method(:feet).__file__
+#a.method(:feet).__line__
 
 # => blocks.rb
 #
