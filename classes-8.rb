@@ -14,8 +14,8 @@ class Duck
   end
 
   def swim
-    pee
-    self.pee
+    lay_an_egg
+    self.lay_an_egg
   end
 
 private
@@ -23,13 +23,14 @@ private
     @wings = value
   end
 
-  def pee
-    "omg duck pee"
+  def lay_an_egg
+    "egg :'("
   end
 end
 
 a = Duck.new(a)
 a = Duck.allocate
+p a.swim
 p a.wings
 a.send(:initialize, 5)
 p a.wings

@@ -28,7 +28,7 @@ p 1.capra
 a.feet # => 4
 
 # 1.9.2+
-a.method(:feet).source_location # => [file, line]
+p a.method(:feet).source_location # => [file, line]
 
 ## REE
 #a.method(:feet).__file__
