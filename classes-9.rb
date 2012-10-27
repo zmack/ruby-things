@@ -9,4 +9,4 @@ end
 
 p Bar.new.obvious_method
 
-# => open_classes.rb
+# => classes-10.rb
