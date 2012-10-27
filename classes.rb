@@ -20,6 +20,7 @@ private
 
 end
 
+a = Vaca.allocate
 a = Vaca.new
 
 p a.bar

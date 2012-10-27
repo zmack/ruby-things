@@ -1,11 +1,12 @@
 class Bars
   def foo
+    p "Hi"
     throw :bum
   end
 end
 
-catch(:done) do
+catch(:bum) do
   Bars.new.foo
 end
 
-# => tests.rb
+# => hooks.rb ? =[

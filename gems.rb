@@ -1,7 +1,6 @@
 before = $:.dup
 
-require 'rubygems'
-require 'xmpp4r'
+require 'rails'
 
 p $: - before
 

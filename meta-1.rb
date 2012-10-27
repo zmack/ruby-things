@@ -25,6 +25,8 @@ class RespondsToEverything
   end
 end
 
+# respond_to_missing?
+
 p a.respond_to? :foo
 p a.respond_to? :rabbit_on_a_stick
 

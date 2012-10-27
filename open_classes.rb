@@ -34,5 +34,6 @@ p a.method(:feet).source_location # => [file, line]
 #a.method(:feet).__file__
 #a.method(:feet).__line__
 
+# => test/classes_test.rb
 # => blocks.rb
 #

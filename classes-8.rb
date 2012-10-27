@@ -35,4 +35,4 @@ p a.wings
 a.send(:initialize, 5)
 p a.wings
 
-# => classes-9.rb
+# => classes-10.rb

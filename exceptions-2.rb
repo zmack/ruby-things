@@ -1,10 +1,10 @@
-class Bar < Exception
+class Bar
   def raise
     raise self
   end
 end
 
 
-raise Bar.new('What is love')
+raise Bar.new
 #
 # => catch.rb

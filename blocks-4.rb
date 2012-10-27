@@ -12,4 +12,5 @@ can_yield_a_value do |x|
   y * 2 == x
 end # => true
 
+# => test/blocks_test.rb
 # => modules.rb

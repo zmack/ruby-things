@@ -17,4 +17,5 @@ end
 p Monkey.new.swing
 p Monkey.new.double_swing
 
+# => test/music_library_test.rb
 # => meta-21.rb
