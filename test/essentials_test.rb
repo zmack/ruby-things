@@ -13,7 +13,7 @@ class EssentialsTest < MiniTest::Unit::TestCase
 
   def test_string_interpolation
     a = 10
-    assert_equal "10 pence", "??? pence"
+    assert_equal "10 pence", "#{} pence"
   end
 
   def test_array_creation

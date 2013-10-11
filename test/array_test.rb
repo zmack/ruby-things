@@ -4,6 +4,7 @@ require 'minitest/autorun'
 class ArrayTest < MiniTest::Unit::TestCase
   def setup
     @a = %w(1 2 3 4 5 6 7).map(&:to_i)
+    @b = (0..3).to_a
   end
 
   def test_truth
@@ -24,5 +25,17 @@ class ArrayTest < MiniTest::Unit::TestCase
 
   def test_reversing_an_array
     assert_equal [7,5,3,1], @a
+  end
+
+  def test_intersection
+    intersection = [] # ???
+
+    assert_equal [1,2,3], intersection
+  end
+
+  def test_union
+    union = [] # ???
+
+    assert_equal [0,1,2,3,4,5,6,7], union
   end
 end

@@ -52,16 +52,6 @@ a = 4
 #end
 
 # puts "foo" unless (a == 3)
-a = [1,2,3]
-
-# a = "moloz pe varza"
-
-a.each do |x|
-end
-
-a.each {|x|
- # sosoni ;(
-} 
 
 # => test/essentials_test.rb
 # => classes.rb
