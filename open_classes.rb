@@ -27,12 +27,7 @@ end
 p 1.capra
 a.feet # => 4
 
-# 1.9.2+
 p a.method(:feet).source_location # => [file, line]
-
-## REE
-#a.method(:feet).__file__
-#a.method(:feet).__line__
 
 # => test/classes_test.rb
 # => blocks.rb
