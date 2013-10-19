@@ -12,4 +12,4 @@ class Foot
   include Bam
 end
 
-# => enumerable.rb
+# => enumerable-3.rb

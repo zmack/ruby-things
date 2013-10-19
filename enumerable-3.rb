@@ -1,4 +1,5 @@
 class PhonyArray
+
   def initialize(min, max, step)
     @max = max
     @min = min

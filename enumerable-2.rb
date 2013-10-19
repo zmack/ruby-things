@@ -15,4 +15,4 @@ end
 puts r
 
 # => test/array_test.rb
-# => enumerable-3.rb
+# => modules.rb
