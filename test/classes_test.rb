@@ -1,5 +1,4 @@
-require 'minitest/unit'
-require 'minitest/autorun'
+require_relative "test_deps"
 require_relative "../my_thing"
 
 class BearTest < MiniTest::Unit::TestCase
