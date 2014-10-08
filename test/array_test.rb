@@ -1,5 +1,4 @@
-require 'minitest/unit'
-require 'minitest/autorun'
+require_relative 'test_deps'
 
 class ArrayTest < MiniTest::Unit::TestCase
   def setup
@@ -9,6 +8,7 @@ class ArrayTest < MiniTest::Unit::TestCase
 
   def test_truth
     assert_equal [1,2,3,4,5,6,7], @a
+    assert_equal [0,1,2,3], @b
   end
 
   def test_summing_an_array
@@ -28,13 +28,13 @@ class ArrayTest < MiniTest::Unit::TestCase
   end
 
   def test_intersection
-    intersection = [] # ???
+    intersection = _
 
     assert_equal [1,2,3], intersection
   end
 
   def test_union
-    union = [] # ???
+    union = _
 
     assert_equal [0,1,2,3,4,5,6,7], union
   end
