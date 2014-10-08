@@ -23,6 +23,24 @@ def foo(cal, vaca = 10, bar = 10)
   bar * 2
 end
 
+def bar(cal:, vaca: 2, bar: 10)
+  puts cal
+  puts vaca
+  puts bar
+end
+
+def other_method(value, is_true: true, print: false)
+  if print_things
+    puts value
+  end
+
+  if is_true
+    !!value
+  else
+    !value
+  end
+end
+
 a = 4
 
 #if a == 3
