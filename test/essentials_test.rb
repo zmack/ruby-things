@@ -1,10 +1,9 @@
-require 'minitest/unit'
-require 'minitest/autorun'
+require_relative 'test_deps'
 
 class EssentialsTest < MiniTest::Unit::TestCase
   def test_string_interpolation
     a = 10
-    assert_equal "10 pence", "#{} pence"
+    assert_equal "10 pence", "#{_} pence"
   end
 
   def test_array_creation
@@ -29,12 +28,12 @@ class EssentialsTest < MiniTest::Unit::TestCase
   end
 
   def test_hash_creation
-    a = Hash[]
+    a = Hash[_]
     assert_equal({ :foo => 1, :bar => 2 }, a)
   end
 
   def test_more_hash_creation
-    a = Hash.new()
+    a = Hash.new(_)
     5000.times do |i|
       assert_equal :foo, a[i]
     end
