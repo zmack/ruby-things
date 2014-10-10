@@ -34,4 +34,16 @@ class EvenMoreBasicsTest < MiniTest::Unit::TestCase
 
     assert_equal [200, 2, 10], recipe._
   end
+
+  def test_creating_a_range
+    acceptable_prices_for_a_coffee = _
+
+    assert_includes acceptable_prices_for_a_coffee, 1
+    assert_includes acceptable_prices_for_a_coffee, 1.5
+    assert_includes acceptable_prices_for_a_coffee, 1.75
+    assert_includes acceptable_prices_for_a_coffee, 2.75
+    assert_includes acceptable_prices_for_a_coffee, 3.75
+    assert_includes acceptable_prices_for_a_coffee, 4.5
+    refute_includes acceptable_prices_for_a_coffee, 5
+  end
 end
