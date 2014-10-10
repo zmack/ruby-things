@@ -11,4 +11,5 @@ a.feet # => 2
 a.feet = 2 # Blow up
 
 
+# => test/basic_classes.rb
 # => classes-7.rb

@@ -6,4 +6,5 @@
 
 :foo.to_s # => "foo"
 
+# => test/even_more_basics_test.rb
 # => intro-4.rb
