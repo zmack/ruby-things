@@ -1,3 +1,4 @@
+gem 'minitest'
 require 'minitest/unit'
 require 'minitest/autorun'
 require 'stringio'
@@ -25,17 +26,6 @@ class MiniTest::Unit::TestCase
 
   ensure
     $stdout = STDOUT
-  end
-
-  alias :old_run_test :run_test
-
-  def run_test(*args)
-    old_run_test(*args)
-  rescue ErrUnderscore => e
-    ex = MiniTest::Assertion.new("Replace _ with a method call")
-    ex.set_backtrace(e.backtrace)
-
-    raise ex
   end
 end
 
