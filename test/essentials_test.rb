@@ -22,7 +22,7 @@ class EssentialsTest < MiniTest::Unit::TestCase
   end
 
   def test_hashes
-    a = {}
+    a = _
     assert_equal [:foo, :bar, "baz", []], a.keys
     assert_equal [1,2,3,4], a.values
   end
@@ -49,13 +49,13 @@ class EssentialsTest < MiniTest::Unit::TestCase
   end
 
   def test_ranges
-    a = ()
+    a = _
 
     assert a.include?(10)
   end
 
   def test_range_arrays
-    a = (1..5)
+    a = (1..5)._
     assert_equal [1,2,3,4,5], a
   end
 end
