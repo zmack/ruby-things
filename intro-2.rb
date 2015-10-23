@@ -1,25 +1,27 @@
-1 # an integer
-# p 1.public_methods
+# Truthy and falsey in Ruby
 
-MOLOZ = 123
-p MOLOZ.to_s
-:foo # a symbol
-#foo
-p :foo.to_s
+if true
+  puts "true is truthy, duh!"
+else
+  puts "true is falsey, wtf!"
+end
 
-# Strings get allocated each time
-p "foo".object_id
-p "foo".object_id
-p "foo".object_id
+if false
+  puts "false is truthy, wtf!"
+else
+  puts "false is falsey, duh!"
+end
 
-# Symbols do not
-p :foo.object_id
-p :foo.object_id
-p :foo.object_id
+if nil
+  puts "nil is truthy"
+else
+  puts "nil is falsey"
+end
 
-p 1.to_s.to_sym.public_methods
+if 0
+  puts "0 is truthy"
+else
+  puts "0 is falsey"
+end
 
-p "123foo".to_i
-p "foo123".to_i
-
-# => intro-21.rb
+# => intro-3.rb

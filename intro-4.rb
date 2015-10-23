@@ -1,22 +1,14 @@
-if true
-  p :hello
-else
-  p :no_hello
-end
+# Integers, symbols and strings
 
-p :hello if false
+1 # an integer
+# p 1.public_methods
 
-p :hello unless false
+MOLOZ = 123
+p MOLOZ.to_s
 
-bar = 10 if false
+:foo # a symbol
+#foo
+p :foo.to_s
+p "foo".to_sym
 
-p bar
-
-a = if true
-      10
-    else
-      11
-    end
-p a 
-
-# => methods.rb
+# => intro-5.rb

@@ -1,10 +1,8 @@
-a = 10
-puts "a string\" #{a}"
-puts 'a string #{a}'
-p %{a string" " '' ''
-  foo
-  bar
-}
-%(a string)
+# base types
+p nil
+p true
+p false
+p 1
+p 0
 
 # => intro-2.rb

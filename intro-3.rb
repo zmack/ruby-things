@@ -1,10 +1,12 @@
-"a string".capitalize # => "A string"
+a = 10
 
-1.to_s # => "1"
+puts "a string \" #{a} \""
+puts 'a string #{a}'
 
-"foo".to_sym # => :foo
+p %{a string" " '' ''
+  foo
+  bar
+}
+%(a string)
 
-:foo.to_s # => "foo"
-
-# => test/even_more_basics_test.rb
 # => intro-4.rb
