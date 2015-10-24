@@ -1,15 +1,4 @@
-['an',  'array']
-[1, 2, 3, 4]
-p [1, 2, "foo",  :bar]
-%w(an array)
-
-a = %w(foo bar baz)
-
-for value in a
-  puts value
-end
-
-
+# arrays - operations
 a = [1, 2, 3, 4, 5]
 b = [1, 2, 3, 10]
 
@@ -31,4 +20,4 @@ p a.shift
 p a
 
 # => test/basics_test.rb
-# => intro-211.rb
+# => intro-8.rb
