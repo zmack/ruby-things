@@ -14,4 +14,5 @@ end
 
 p MyThing.new
 p MyThing.last_instance
+p MyOtherThing.last_instance
 # => open_classes.rb
