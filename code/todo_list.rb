@@ -8,7 +8,7 @@ class TodoItem
 	def done?
 		!!@done
 	end
-	def done!
+	def done
 		@done = true
 	end
 end
@@ -45,6 +45,6 @@ class TodoList
 		@items_done.find{|x| x.description == description}
 	end
 	def set_as_done(description)
-		self.find_by_description(description).done!
+		self.find_by_description(description).done
 	end
 end
